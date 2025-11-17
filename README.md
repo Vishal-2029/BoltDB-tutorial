@@ -36,17 +36,21 @@ go run complete_app.go
 ## 📁 Project Structure
 
 ```
-bolt-db/
-├── README.md              # This file
-├── basic.go              # Basic database setup
-├── add_entry.go          # Add entry functionality
-├── read_entries.go       # Read/list entries
-├── delete_entries.go     # Delete entry functionality
-├── main.go               # Demo of all operations
-├── complete_app.go       # Full interactive application
-├── diary.db              # Database file (auto-generated)
-├── go.mod                # Go module file
-└── go.sum                # Go dependencies
+Bolt-DB/
+├── example/
+│   └── complete_app.go     # Full interactive BoltDB app
+│
+├── add_entry.go            # Standalone example: Add entries
+├── basic.go                # Standalone example: Basic BoltDB flow
+├── delete_entries.go       # Standalone example: Delete entries
+├── read_entries.go         # Standalone example: Read entries
+├── main.go                 # Demo runner or combined example
+│
+├── diary.db                # Auto-generated database file
+├── go.mod                  # Module definition
+├── go.sum                  # Dependencies
+└── README.md               # Documentation
+
 ```
 
 ## 🎯 Learning Path
